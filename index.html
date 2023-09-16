@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>healthy.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+</head>
+<body>
+    <nav class="nav__container">
+        <div class="logo">healthy.com</div>
+            <ul class="nav__links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="nav__humburger-menu">
+        <div class="logo">healthy.com</div>
+        <div class="nav__hum-menu">
+            <div class="nav__hum-icons" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="hum-menu-links">
+                <ul>
+                    <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+                    <li><a href="#packages" onclick="toggleMenu()">Packages</a></li>
+                    <li><a href="contacts" onclick="toggleMenu()">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Green salad.jpg" alt="">
+            <p>Enjoy healthy meals!. <br><br>Brought to you by healthy.com</p>
+        </div>
+    </section>
+    <section id="about"> 
+        <h5 class="title">About us</h5><br>
+        <div class="section-container">
+                <div class="text-container">
+                    <div class="logo">healthy.com</div><br>
+                    <p>Started operating in 2020, bringing you healthy meal plans.</p><br>
+                    <p>Eating healthy meals is a fundamental aspect of maintaining your overall well-being and promoting a balanced lifestyle.  By prioritizing nutrient-rich foods, individuals can enjoy numerous benefits, from improved physical and mental health to increased longevity.</p>
+                    </div> 
+                </div>              
+            </div>
+        <i class="uil uil-angle-double-down" id="arrow" onclick="location.href='./#Experience'"></i>
+    </section>
+    <section id="packages">
+        <p class="section__text__p1">Check out our meal plans!</p><br>
+                    <div class="article-container">
+                        <article>
+                            <h3>Tomato Salad</h3><br>
+                            <img src="./assets/tomato salad.jpg" alt="" id="pack-img">
+                            <p>Tomatoes with cucumber</p>
+                        </article>
+                        <article>
+                            <h3>Chicken Salad</h3><br>
+                            <img src="./assets/chicken-salad.jpg" alt="" id="pack-img">
+                            <p>chicken and greens</p>
+                        </article>
+                        <article>
+                            <h3>Avocado Salad</h3><br>
+                            <img src="./assets/Avocado.jpg" alt="" id="pack-img">
+                            <p>Avocado and Cucumber</p>
+                        </article>
+                        <article>
+                            <h3>Green Shake</h3><br>
+                            <img src="./assets/Green shake.jpg" alt="" id="pack-img">
+                            <p>Just greens shake</p>
+                        </article>      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="uil uil-angle-double-down" id="arrow" onclick="location.href='./#projects'"></i>
+    </section>  
+    <section id="contacts">
+        <p class="section__text__p1">Get in touch</p><br>
+        <h1 class="title">Contact us</h1><br>
+        <img src="/assets/Green salad.jpg" alt=""><br>
+        <p>Tracen Street,<br>737 Circle,<br>View Park</p>
+        <div id="icons">
+            <i class="uil uil-facebook-f"></i>
+            <i class="uil uil-twitter"></i>
+            <i class="uil uil-whatsapp"></i>
+            <i class="uil uil-phone"></i>
+        </div>
+        
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                    <ul class="nav__links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="copyright">
+        <p>Copyright&copy;2023. Tshenolo Kabikwa. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
